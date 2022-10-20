@@ -26,5 +26,5 @@ app.include_router(vote.router)
 
 @app.get('/', status_code=status.HTTP_200_OK)
 def get_check() -> Dict:
-    return dict(status='OK')
+    return dict(status='OK!!')
 
